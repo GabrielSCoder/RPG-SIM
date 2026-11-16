@@ -1,0 +1,42 @@
+[
+    {
+        "id": "ferro",
+        "nome": "Ferro",
+        "preco_multiplicador": 1.0
+    },
+    {
+        "id": "aco",
+        "nome": "Aço",
+        "preco_multiplicador": 1.5
+    },
+    {
+        "id": "prata",
+        "nome": "Prata",
+        "preco_multiplicador": 2.0
+    },
+    {
+        "id": "ouro",
+        "nome": "Ouro",
+        "preco_multiplicador": 3.0
+    },
+    {
+        "id": "vitrio",
+        "nome": "Vítrio",
+        "preco_multiplicador": 2.5
+    },
+    {
+        "id": "carmesim",
+        "nome": "Carmesim",
+        "preco_multiplicador": 4.0
+    },
+    {
+        "id": "lunatita",
+        "nome": "Lunatita",
+        "preco_multiplicador": 5.0
+    },
+    {
+        "id": "mithril",
+        "nome": "Mithril",
+        "preco_multiplicador": 6.0
+    }
+]

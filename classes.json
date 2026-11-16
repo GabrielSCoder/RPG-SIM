@@ -1,0 +1,67 @@
+[
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "base_attributes": { "STR": 65, "INT": 40, "WILL": 45, "AGI": 50, "END": 58, "CAR": 42, "LCK": 50 },
+    "max_hp_per_level": 25,
+    "multiplicador_mana": 0.5,
+    "advantages": ["Immunity to poison"],
+    "disadvantages": ["Leather or chain armor only", "No Orcish or Daedric gear"],
+    "skills": {
+      "primary": ["ARMA-CONTUSAO", "ARMA-CORTE", "RESISTENCIA FISICA", "NATUREZA"]
+    },
+    "tipo_progressao" : "A"
+  }, 
+  {
+    "id": "knight",
+    "name": "Knight",
+    "base_attributes": { "STR": 60, "INT": 45, "WILL": 48, "AGI": 50, "END": 49, "CAR": 58, "LCK": 45 },
+    "max_hp_per_level": 20,
+    "multiplicador_mana": 0.8,
+    "advantages": ["Immunity to paralysis"],
+    "disadvantages": ["Chain or Plate", "No Daedric gear"],
+    "skills": {
+      "primary": ["ARMA-CONTUSAO", "ARMA-CORTE", "ETIQUETA"]
+    },
+    "tipo_progressao" : "B"
+  },
+  {
+    "id": "mage",
+    "name": "Mage",
+    "base_attributes": { "STR": 42, "INT": 60, "WILL": 65, "AGI": 45, "END": 45, "CAR": 50, "LCK": 50 },
+    "max_hp_per_level": 9,
+    "multiplicador_mana": 3,
+    "advantages": ["2x INT in spell points", "Starting Spells: Wizard Lock, Shock, Heal, Water Walking, Slowfalling"],
+    "disadvantages": ["Leather only", "No Axes", "No Bows", "No Long Blades", "No shields except Buckler"],
+    "skills": {
+      "major": ["DESTRUICAO", "CONTROLE", "ALTERACAO"]
+    },
+    "tipo_progressao" : "C"
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "base_attributes": { "STR": 50, "INT": 45, "WILL": 45, "AGI": 62, "END": 48, "CAR": 42, "LCK": 50 },
+    "max_hp_per_level": 14,
+    "multiplicador_mana": 1.5,
+    "advantages": ["Resistance to Magic", "Resistance to Shock"],
+    "disadvantages": ["No armor", "No shields"],
+    "skills": {
+      "primary": [ "DESARMADO", "RESISTENCIA FISICA", "REFLEXOS", "PERCEPCAO"]
+    },
+    "tipo_progressao" : "B"
+  },
+  {
+    "id": "thief",
+    "name": "Thief",
+    "base_attributes": { "STR": 45, "INT": 47, "WILL": 45, "AGI": 58, "END": 50, "CAR": 47, "LCK": 50 },
+    "max_hp_per_level": 14,
+    "multiplicador_mana": 1.0,
+    "advantages": [],
+    "disadvantages": ["Leather only", "No blunt weapons", "No shields except bucklers"],
+    "skills": {
+      "primary": ["ABRIR FECHADURA", "PUNGA", "FURTIVIDADE", "MANHA DA RUA"]
+    },
+    "tipo_progressao" : "A"
+  }
+] 

@@ -1,0 +1,33 @@
+[
+  {
+    "id" : "humano",
+    "nome" : "Humano",
+    "bonus" : [{"tipo" : "atributo_primario", "calculo" : "adicao", "atributo" : "qualquer", "valor" : 5}]
+  },
+  {
+    "id" : "elfo",
+    "nome" : "Elfo",
+    "bonus" : [
+      {"tipo" : "atributo_secundario", "atributo_alvo" : "percepcao", "calculo" : "adicao", "valor" : "10" },
+      {"tipo" : "atributo_primario", "atributo_alvo" : "AGI", "calculo" : "adicao", "valor" : 5}
+    ]
+  },
+  {
+    "id" : "alto_elfo",
+    "nome" : "Alto elfo",
+    "bonus" : [
+      {"tipo" : "atributo_secundario", "atributo_alvo" : "destruicao", "calculo" : "adicao", "valor" : "10" },
+      {"tipo" : "atributo_secundario", "atributo_alvo" : "percepcao", "calculo" : "adicao", "valor" : "10" },
+      {"tipo" : "atributo_primario", "atributo_alvo" : "INT", "calculo" : "adicao", "valor" : 5},
+      {"tipo" : "atributo_primario", "atributo_alvo" : "END", "calculo" : "subtracao", "valor" : 7}
+    ]
+  },
+  {
+    "id" : "anao",
+    "nome" : "Anão",
+    "bonus" : [
+      {"tipo" : "atributo_primario", "atributo_alvo" : "END", "calculo" : "adicao", "valor" : "5" },
+      {"tipo" : "atributo_primario", "atributo_alvo" : "AGI", "calculo" : "subtracao", "valor" : 2}
+    ]
+  }
+]

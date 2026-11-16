@@ -1,0 +1,30 @@
+[
+    {
+        "id": "fogo",
+        "nome": "Fogo"
+    },
+    {
+        "id": "agua",
+        "nome": "Água"
+    },
+    {
+        "id": "raio",
+        "nome": "Raio"
+    },
+    {
+        "id": "trevas",
+        "nome": "Trevas"
+    },
+    {
+        "id": "terra",
+        "nome": "Terra"
+    },
+    {
+        "id": "gelo",
+        "nome": "Gelo"
+    },
+    {
+        "id": "luz",
+        "nome": "Luz"
+    }
+]

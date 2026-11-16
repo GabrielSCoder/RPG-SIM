@@ -1,0 +1,880 @@
+{
+    "armas": [
+        {
+            "nome": "Punhal de Ferro",
+            "peso": 1.5,
+            "preco": 90,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "ferro",
+            "dano_base": 15,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Punhal de Aço",
+            "peso": 1.5,
+            "preco": 135,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "aco",
+            "dano_base": 20,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Punhal de Prata",
+            "dano_base": 25,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "prata",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 180,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Punhal de Ouro",
+            "peso": 1.5,
+            "preco": 270,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "ouro",
+            "dano_base": 30,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Punhal de Vítrio",
+            "dano_base": 35,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "vitrio",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 225,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Punhal de Carmesim",
+            "peso": 1.5,
+            "preco": 360,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "carmesim",
+            "dano_base": 40,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Punhal de Lunatita",
+            "dano_base": 45,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "lunatita",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 450,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Punhal de Mithril",
+            "peso": 1.5,
+            "preco": 540,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "mithril",
+            "dano_base": 50,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Espada de Ferro",
+            "dano_base": 40,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "ferro",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 120,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada de Aço",
+            "dano_base": 48,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "aco",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 180,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada de Prata",
+            "peso": 1.5,
+            "preco": 240,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "prata",
+            "dano_base": 56,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Espada de Ouro",
+            "dano_base": 64,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "ouro",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 360,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada de Vítrio",
+            "dano_base": 72,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "vitrio",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 300,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada de Carmesim",
+            "dano_base": 80,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "carmesim",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 480,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada de Lunatita",
+            "dano_base": 88,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "lunatita",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 600,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada de Mithril",
+            "peso": 1.5,
+            "preco": 720,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "mithril",
+            "dano_base": 96,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Machado de Ferro",
+            "dano_base": 30,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "ferro",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 90,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Machado de Aço",
+            "dano_base": 34,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "aco",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 135,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Machado de Prata",
+            "dano_base": 38,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "prata",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 180,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Machado de Ouro",
+            "peso": 1.5,
+            "preco": 270,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "ouro",
+            "dano_base": 42,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Machado de Vítrio",
+            "peso": 1.5,
+            "preco": 225,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "vitrio",
+            "dano_base": 46,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Machado de Carmesim",
+            "dano_base": 50,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "carmesim",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 360,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Machado de Lunatita",
+            "peso": 1.5,
+            "preco": 450,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "lunatita",
+            "dano_base": 54,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Machado de Mithril",
+            "dano_base": 58,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "mithril",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 540,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada Longa de Ferro",
+            "dano_base": 60,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "ferro",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 140,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada Longa de Aço",
+            "peso": 1.5,
+            "preco": 210,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "aco",
+            "dano_base": 68,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Espada Longa de Prata",
+            "dano_base": 76,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "prata",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 280,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada Longa de Ouro",
+            "peso": 1.5,
+            "preco": 420,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "ouro",
+            "dano_base": 84,
+            "atributo_derivado": "ARMA-CORTE",
+            "bonus_critico": 5,
+            "dano_elemental": []
+        },
+        {
+            "nome": "Espada Longa de Vítrio",
+            "dano_base": 92,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "vitrio",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 350,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada Longa de Carmesim",
+            "dano_base": 100,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "carmesim",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 560,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada Longa de Lunatita",
+            "dano_base": 108,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "lunatita",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 700,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Espada Longa de Mithril",
+            "dano_base": 116,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "mithril",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 840,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Ferro",
+            "dano_base": 60,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "ferro",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 150,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Aço",
+            "dano_base": 63,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "aco",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 225,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Prata",
+            "dano_base": 66,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "prata",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 300,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Ouro",
+            "dano_base": 69,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "ouro",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 450,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Vítrio",
+            "dano_base": 72,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "vitrio",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 375,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Carmesim",
+            "dano_base": 75,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "carmesim",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 600,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Lunatita",
+            "dano_base": 78,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "lunatita",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 750,
+            "dano_elemental": [],
+            "reservado": false
+        },
+        {
+            "nome": "Martelo de Guerra de Mithril",
+            "dano_base": 81,
+            "atributo_derivado": "ARMA-CORTE",
+            "material": "mithril",
+            "peso": 1.5,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "bonus_critico": 5,
+            "preco": 900,
+            "dano_elemental": [],
+            "reservado": false
+        }
+    ],
+    "armaduras": [
+        {
+            "nome": "Novo Item",
+            "peso": 1.5,
+            "preco": 50,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "material": "ferro",
+            "indice_armadura": 10,
+            "tipo": "Elmo",
+            "resistencia_elemental": []
+        }
+    ],
+    "equipaveis": [
+        {
+            "nome": "Anel do gigante",
+            "peso": 0.1,
+            "preco": 400,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 10,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "tipo": "Anel",
+            "resistencia_elemental": []
+        },
+        {
+            "nome": "Anel da tormenta",
+            "peso": 0.1,
+            "preco": 400,
+            "reservado": false,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 5
+            },
+            "tipo": "Anel",
+            "resistencia_elemental": [
+                "raio"
+            ]
+        },
+        {
+            "nome": "Novo Equipável",
+            "tipo": "Anel",
+            "peso": 0.1,
+            "modificador_atributo": {
+                "STR": 0,
+                "AGI": 0,
+                "VIT": 0,
+                "INT": 0,
+                "LCK": 0,
+                "CAR": 0,
+                "WILL": 0
+            },
+            "preco": 50,
+            "resistencia_elemental": [],
+            "reservado": false
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"id" : "goblin_batedor",
+		"nome" : "goblin batedor",
+		"base_attributes": { "STR": 30, "INT": 25, "WILL": 35, "AGI": 40, "END": 40, "CAR": 35, "LCK": 30 },
+	    "max_hp_per_level": 12,
+		"multiplicador_mana": 0.5,
+		"skills": {
+      	"primary": ["ARMA-CONTUSAO", "ARMA-CORTE"]}
+	},
+	{
+		"id" : "goblin_guerreiro",
+		"nome" : "goblin guerreiro",
+		"base_attributes": { "STR": 40, "INT": 25, "WILL": 45, "AGI": 40, "END": 50, "CAR": 35, "LCK": 30 },
+	    "max_hp_per_level": 14,
+		"multiplicador_mana": 0.5,
+		"skills": {
+      	"primary": ["ARMA-CONTUSAO", "ARMA-CORTE"]}
+	},
+	{
+		"id" : "goblin_general",
+		"nome" : "goblin general",
+		"base_attributes": { "STR": 50, "INT": 25, "WILL": 35, "AGI": 50, "END": 58, "CAR": 35, "LCK": 30 },
+	    "max_hp_per_level": 18,
+		"multiplicador_mana": 0.5,
+		"skills": {
+      	"primary": ["ARMA-CONTUSAO", "ARMA-CORTE"]}
+	},
+	{
+		"id" : "goblin_arcano",
+		"nome" : "goblin xamam",
+		"base_attributes": { "STR": 35, "INT": 55, "WILL": 50, "AGI": 35, "END": 45, "CAR": 35, "LCK": 30 },
+	    "max_hp_per_level": 12,
+		"multiplicador_mana": 1.5,
+		"skills": {
+      	"primary": ["ARMA-CONTUSAO", "ARMA-CORTE", "DESTRUICAO"]}
+	}
+]
